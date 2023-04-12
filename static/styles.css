@@ -1,0 +1,74 @@
+.jumbotron{
+    background-color: rgb(233, 127, 27);
+}
+.lead{
+    text-align: center;
+    text-decoration-color: black;
+    text-decoration-style: dashed;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:30px;
+}
+.textarea{
+    width: 200px;
+    height: 500px;
+}
+.original_title{
+    background-color: rgba(44, 233, 247, 0.952);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    display: flex;
+    justify-content:center ;
+    column-count: 3;
+    
+     
+}
+.summary_title{
+    background-color: rgb(253, 79, 215);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    display: flex;
+    justify-content:center ; 
+
+} 
+.frt{
+    display: flex;
+    justify-content: space-around;
+     
+} */
+.srt{
+    display: grid;
+    justify-content: space-around;
+    /* width: 200px; */
+    /* flex-basis: content; */
+    /* flex: 1; */
+    grid-auto-flow: column;
+   
+}
+.summarisedText{
+    font-weight: bold;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: darkblue;
+background-color:rgb(221, 166, 147);
+margin-left: 10px;
+font-size: large;
+text-align: justify;
+}
+
+.orignalText{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-color:darkgrey;
+    text-align: justify;
+}
+.btn btn-danger{
+    margin-left: 10px;
+}
+.heading{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding: 10px;
+}
